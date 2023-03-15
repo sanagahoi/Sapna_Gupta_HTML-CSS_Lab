@@ -1,0 +1,54 @@
+body{
+    
+    background: rgb(128, 44, 12) url("https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg") fixed;
+    height: 500px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.548);
+    background-size: cover;
+}
+image{
+    position: fixed
+}
+div{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    min-width: 350px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-left: 40px;
+    
+}
+input{
+    width: 300px;
+    min-width: 100px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+.inputBlock:hover{
+            background-color: steelblue;
+            opacity: 0.35;
+}
+input:focus{
+    outline: none;
+    color: white;
+    background-color: rgba(70, 131, 180, 0.35);
+}
+button{
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(175, 102, 243);
+}
+button:hover{
+    background-color: darkmagenta;
+}
