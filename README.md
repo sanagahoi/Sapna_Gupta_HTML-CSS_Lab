@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # G2B5_HTML-CSS_GradedProject1
 
 A Pharmacy shop who has millions of customers are in need of creating a website for their products. As they have hundreds of offline orders coming in every day and it is becoming difficult to keep track of it, your organization has taken up the project. The pharmacy also has tie up with various Diagnostic centers where the pharmacy will take samples from the patients at their doorstep and analyses in the lab. The report will be sent via mail and a hard copy if requested. And your team has asked you to develop a Homepage for the products and the Lab Test form. The requirements of Homepage are as follows.
@@ -25,3 +26,19 @@ remote-repo/main
 # Diwali_project
 Using html, Css and Javascript 
 >>>>>>> repo-remote/main
+=======
+# Tricolor-html-css-js
+HTML-CSS-JavaScript project on Indian flag theme
+
+Hello to your inner curiosity with brought you here !!...
+
+Indian flag i.e. Tiranga is the symbolic representation of 
+the strength and courage by saffron colour, 
+peace and truth with Dharma Chakra by while colour 
+and 
+fertility, growth and auspiciousness of our land(Bharat Bhumi) by green colour.
+
+In this project, Tricolor with name of India is made with some added music using HTML, CSS and JavaScript. 
+
+Thank you for visiting this page.
+>>>>>>> repo1-lab2/main
