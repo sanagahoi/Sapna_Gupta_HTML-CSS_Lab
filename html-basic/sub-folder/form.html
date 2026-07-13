@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../demo.css">
+    <title>Document</title>
+  </head>
+  
+  <body>
+<!-- in action action=" "(mailto:you@yourdomain.com) method="post" -->
+<center>when we use name = "" attribute here we can see user response in the browser console</center>
+<h4>Method post is used to hide the data from the query url</h4>    
+<form action="message.html" >
+        <label for="Name">Name: </label>
+       <input type="text"
+        id="Name"
+        value=""
+        size="10"
+        name="Name"
+        placeholder="your name"
+      /><br /><br/>
+      <label for="Email">Email: </label>
+       <input type="email" value="" size="10" name="Email"/>
+      <br /><br/>
+      <label for="password">Password: </label>
+      <input type="password" size="15" ><br/>
+      &nbsp;<input type="submit" />
+    </form>
+    <br/><hr/><br/>
+
+    <form method=post action="/cgi- bin/example.cgi">
+        <input type="text" size="10" maxlength="30"><br/>
+        <input type="date"><br/>
+        <input type="datetime-local" >
+        <input type="Submit" value="Submit">
+    </form>
+    <br/><hr/><br/>
+
+
+    <form method=post action="/cgi- bin/example.cgi">
+        <input type="text" style="color: #ffffff;
+                            font-family: Verdana; font-weight: bold; font-size: 12px; background-color: #72a4d2;"
+            size="10" maxlength="30">
+        <input type="Submit" value="Click here">
+    </form>
+    <br/><hr/><br/>
+
+
+    <form method=post action="/cgi- bin/example.cgi">
+        <table border="0" cellspacing="0" cellpadding="2">
+            <tr>
+                <td bgcolor="#8463ff"><input type="text" size="20" maxlength="30"></td>
+                <td bgcolor="#8463ff" valign="Middle"> <input type="image" name="submit" width="60px" src="https://freepngimg.com/thumb/submit_button/25511-7-submit-button-picture.png  "></td>
+            </tr>
+        </table>
+    </form>
+    <br/><hr/><br/>
+    <form method=post action="/cgi- bin/example.cgi">
+        Enter Your Comments:<br>
+        <textarea wrap="virtual" name="Comments" rows=3 cols=20 maxlength=100></textarea><br>
+        <input type="Submit" value="Submit">
+        <input type="Reset" value="Clear">
+    </form>
+    <br/><hr/><br/>
+
+
+    <form method=post action="/cgi- bin/example.cgi">
+        <center>
+            Select an option:
+            <select>
+                <option>option 1</option>
+                <option selected>option 2</option>
+                <option>option 3</option>
+                <option>option 4</option>
+                <option>option 5</option>
+                <option>option 6</option>
+            </select><br>
+            <input type="Submit" value="Submit">
+        </center>
+    </form>
+    <br/><hr/><br/>
+
+
+    <form method=post action="/cgi- bin/example.cgi">
+        Select an option:<br>
+        <input type="radio" name="option"> Option 1
+        <input type="radio" name="option" checked> Option 2
+        <input type="radio" name="option"> Option 3
+        <br>
+        <br>
+        Select an option:<br>
+        <input type="checkbox" name="selection"> Selection 1
+        <input type="checkbox" name="selection" checked> Selection 2
+        <input type="checkbox" name="selection"> Selection 3
+        <input type="Submit" value="Submit">
+    </form>
+
+
+    <br/><hr/><br/>
+  </body>
+</html>
